@@ -341,7 +341,7 @@ $('#copy').addEventListener('click',function(){
 fillDrift();
 loadReviews().then(function(d){
   reviews=d;
-  if(d.length){$('#stat').textContent='รีวิวจริงจากผู้ใช้ '+d.length+' รายการ';fillDrift()}
+  if(d.length){$('#stat').textContent='รีวิวจริงจากผู้ใช้จริง!';fillDrift()}
 }).catch(function(){});
 })();
 </script>
